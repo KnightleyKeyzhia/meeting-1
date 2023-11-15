@@ -14,6 +14,7 @@ console.log(jedi['name'])
 console.log(jedi['color'])
 console.log(jedi['age'])
 
+//volumeOne
 var block = { 
   lenght: 10,
   width: 5,
@@ -25,3 +26,14 @@ var vol = block.lenght*block.width*block.height
 return "The volume of the block is : " + vol
  }
  console.log(volume());
+
+//volumeTwo
+var block = { 
+  lenght: 10,
+  width: 5,
+  height: 4,
+  volume: function(){
+    return this.lenght*this.width*this.height
+  }
+};
+console.log(block.volume())
