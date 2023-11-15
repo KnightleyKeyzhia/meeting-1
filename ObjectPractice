@@ -4,10 +4,24 @@ var jedi = {
   age: 899,
 };
 
-// console.log(jedi.name)
-// console.log(jedi.color)
-// console.log(jedi.age)
+//oneWay
+console.log(jedi.name)
+console.log(jedi.color)
+console.log(jedi.age)
 
+//secondWay
 console.log(jedi['name'])
 console.log(jedi['color'])
 console.log(jedi['age'])
+
+var block = { 
+  lenght: 10,
+  width: 5,
+  height: 4,
+ }; 
+
+function volume(){
+var vol = block.lenght*block.width*block.height
+return "The volume of the block is : " + vol
+ }
+ console.log(volume());
