@@ -1,0 +1,13 @@
+var jedi = {
+  name: "yoda",
+  color: "green",
+  age: 899,
+};
+
+// console.log(jedi.name)
+// console.log(jedi.color)
+// console.log(jedi.age)
+
+console.log(jedi['name'])
+console.log(jedi['color'])
+console.log(jedi['age'])
